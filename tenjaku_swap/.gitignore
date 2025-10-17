@@ -1,0 +1,80 @@
+# Anchor
+.anchor
+target/
+**/*.rs.bk
+test-ledger/
+
+# IDL
+!target/idl/
+!target/types/
+
+# Solana
+.so
+.so.*
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Next.js (Frontend)
+.next/
+out/
+.vercel
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Rust
+**/target/
+**/*.rs.bk
+Cargo.lock
+
+# Testing
+coverage/
+.nyc_output/
+
+# Turbo
+.turbo
+
+# OS
+Thumbs.db
+
+# Solana CLI
+.config/
+test-ledger/
+
+# Keys (IMPORTANT: Never commit private keys!)
+*.json
+!tsconfig.json
+!package.json
+!package-lock.json
+!Anchor.toml
+
